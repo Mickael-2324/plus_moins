@@ -28,7 +28,7 @@ int main()
 	do
 	{
 		printf ("Devinez le nombre: \n");
-		scanf ("%d", &choix_joueur);  //on met pas de "\n" dans scanf
+		scanf ("%d", &choix_joueur);   //on met pas de "\n" dans scanf
 		plus_moins (choix_joueur, valeur_a_trouver);
 	}while(choix_joueur != valeur_a_trouver);
 
